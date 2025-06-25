@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/Project2.jpg";
-import project3 from "../assets/projects/project-3.png";
+import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = ` I am a pre final year student at BIT Mesra pursuing Btech in Artificial Intelligence and Machine Learning .
@@ -36,18 +36,13 @@ export const EDUCATION = [
 
 
 export const PROJECTS = [
+  
   {
-    title: "Zhub Store",
-    image: project2,
-    description:"Developed Zhub Store and implemented a fully functional prototype for trend-centric identification and platform engagement to offer Gen Z consumers the latest celebrity style fashion.",
-    technologies: ["EJS", "CSS", "Node.js", "Express.js"],
-  },
-  {
-    title: "Portfolio Website",
+    title: "CodeSnip-Code Snippet Manager Platform",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A full-stack web application to manage and organize code snippets with tagging, search, and authentication.",
+    technologies: ["react.js", "Node.js", "MongoDB", "Bootstrap", "Express.js"],
   },
   {
     title: "EzyGrocery-(Grocery Ordering Website)",
@@ -60,6 +55,12 @@ export const PROJECTS = [
     image: project1,
     description:"CalBuddy is based factors like age,weight,heart rate and exercise type that makes accuracte predictions for the Calorie Burnt",
     technologies: ["Pandas", "NumPy",  "Postgresql", "ScikitLearn"],
+  },
+  {
+    title: "Zhub Store",
+    image: project2,
+    description:"Developed Zhub Store and implemented a fully functional prototype for trend-centric identification and platform engagement to offer Gen Z consumers the latest celebrity style fashion.",
+    technologies: ["EJS", "CSS", "Node.js", "Express.js"],
   },
   
 ];
